@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BoletimList">
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/notfound"
+        android:layout_centerInParent="true"
+        android:contentDescription="Not Found"
+        android:visibility="gone"
+        android:src="@drawable/ic_sleeping" />
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/faltas"
+        android:divider="@color/colorPrimary"
+        />
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+
+        ads:adUnitId="ca-app-pub-4776387538701328/8977512568">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>

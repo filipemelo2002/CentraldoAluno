@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/apk/tools"
+    android:gravity="center"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:background="#ffffff"
+	android:layout_height="match_parent"
+	tools:context="ednt.dev.androidgridlayout.MainActivity">
+
+	<LinearLayout
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:padding="5dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Nome da matéria:"
+			android:layout_gravity="left"
+			android:fontFamily="sans-serif-thin"
+            android:textColor="#585555"
+			android:textSize="19sp"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:maxLength="20"
+			android:layout_weight="0"
+			android:id="@+id/addTrabalhosMateria"
+			android:background="@drawable/edt_bg_selector"
+			android:minHeight="42dp"
+			android:textColor="#4A4A4A"
+			android:textColorHint="#30000000"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="0dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Pequena descrição: "
+				android:layout_gravity="left"
+				android:layout_weight="0"
+				android:paddingTop="13dp"
+				android:fontFamily="sans-serif-thin"
+				android:paddingRight="33dp"
+				android:textColor="#585555"
+				android:textSize="19sp"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Data: "
+				android:layout_weight="1"
+				android:layout_gravity="right"
+				android:fontFamily="sans-serif-thin"
+				android:paddingTop="13dp"
+				android:textColor="#585555"
+				android:textSize="19sp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:gravity="center"
+			android:padding="0dp">
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:inputType="textMultiLine"
+				android:layout_width="wrap_content"
+				android:ems="10"
+				android:layout_weight="0"
+				android:maxLength="20"
+				android:id="@+id/addTrabalhosSDescribe"
+				android:maxHeight="55dp"
+				android:background="@drawable/edt_bg_selector"
+				android:minHeight="42dp"
+				android:textColorHint="#30000000"
+				android:textColor="#4A4A4A"/>
+
+			<RelativeLayout
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:paddingLeft="4dp"
+				android:gravity="center_vertical"
+				android:orientation="vertical">
+
+				<EditText
+					android:layout_height="match_parent"
+					android:layout_width="wrap_content"
+					android:ems="10"
+					android:id="@+id/addTrabalhosDate"
+					android:layout_weight="1"
+					android:maxLength="10"
+					android:background="@drawable/edt_bg_selector"
+					android:minHeight="42dp"
+					android:textColor="#4A4A4A"
+					android:textColorHint="#30000000"
+					android:inputType="date|text"/>
+
+			</RelativeLayout>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:fontFamily="sans-serif-thin"
+			android:text="Descrição completa do trabalho: "
+			android:layout_gravity="left"
+			android:paddingTop="13dp"
+			android:textColor="#585555"
+			android:textSize="19sp"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:inputType="textMultiLine"
+			android:layout_width="match_parent"
+			android:ems="10"
+			android:layout_weight="0"
+			android:maxHeight="100dp"
+			android:minHeight="42dp"
+			android:id="@+id/addTrabalhosLDescribe"
+			android:textColorHint="#30000000"
+			android:background="@drawable/edt_bg_selector"
+			android:textColor="#4A4A4A"/>
+		<Button
+			style="@style/inputs"
+			android:text="AGENDAR"
+			android:textColor="#ffffff"
+			android:id="@+id/btnAgendar"
+			android:layout_marginTop="15dp"
+			android:background="@drawable/btn"
+			android:textSize="20sp"
+			android:layout_marginBottom="25dp"/>
+		
+	</LinearLayout>
+
+</RelativeLayout>
+

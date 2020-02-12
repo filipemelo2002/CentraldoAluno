@@ -1,0 +1,37 @@
+<RelativeLayout android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			>
+			<android.support.v7.widget.AppCompatImageView
+				android:layout_width="100dp"
+				android:layout_height="100dp"
+				android:id="@+id/notfound"
+				android:layout_centerInParent="true"
+				android:contentDescription="Not Found"
+				android:visibility="gone"
+				android:src="@drawable/ic_sleeping" />
+			<android.support.v7.widget.RecyclerView
+				android:layout_width="match_parent"
+				android:id="@+id/horariosTable"
+				android:layout_height="match_parent"/>
+		</RelativeLayout>
+
+	</ScrollView>
+
+
+</RelativeLayout>
+
+
+
+
+
+

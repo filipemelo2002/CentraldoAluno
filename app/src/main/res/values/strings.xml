@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Central do Aluno</string>
+    <string name="pontosNecessarios">Pontos necessários para aprovação: %1s</string>
+    <string name="notas">1° BIMESTRE: %1s \n\n2° BIMESTRE: %1s \n\n3° BIMESTRE: %1s \n\n4° BIMESTRE: %1s \n\n\n\nNota rec. final: %1s\n\nNota Final: %1s</string>
+    <string name="cancel_dialog">Cancelar</string>
+    <string name="definir_horario">Definir</string>
+    <string name="notify_title">Central do Aluno</string>
+    <string name="notify_msg_title">Que tal verificar?! ;)</string>
+    <string name="aprovadoMensagem">Aprovado(a) nesta matéria!</string>
+    <string name="central_do_aluno">Central do Aluno</string>
+    <string name="faltas">Faltas</string>
+    <string name="introdution1_text">Certifique-se de que sua conta é do tipo \"Estudante\".</string>
+</resources>

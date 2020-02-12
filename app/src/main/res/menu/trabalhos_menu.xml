@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".addTrabalho"
+	
+	>
+	<item
+		app:showAsAction="ifRoom|withText"
+	    android:id="@+id/addItem"
+	  android:title="Adicionar Item"
+	  android:icon="@drawable/plus_icon"
+	   />
+    <item
+		app:showAsAction="ifRoom|withText"
+	    android:id="@+id/addAlarm"
+		android:title="Adicionar alarme"
+		android:icon="@drawable/alarm"
+	/>
+</menu>
